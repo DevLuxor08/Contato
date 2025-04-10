@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%; /* Largura */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* MAIN -  CONTEUDO PRINCIPAL */
+.content{
+    width: 75vw;
+}
+
+.sec-main{
+     
+}
+
+/* TITULO DO SITE */
+.title-main{ 
+font-size: 30px;            /* Tamanho da Fonte*/
+display: flex;              /* Comportamente *Pesquisar* */
+width: 100%;                /* Largura */ 
+height: 60px;               /* Altura*/
+text-align: center;         /* Alinhar o texto no meio da DIV */
+align-items: center;        /* Alinha o texto no eixo */
+justify-content: center;    /* Alinha do eixo principal do Flebox */
+}
+
